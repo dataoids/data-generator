@@ -4,4 +4,11 @@ Welcome to the `Random Data Generator` repository! Here, you will find a collect
 
 The programs in this repository use various Python libraries such as Faker, Random, and Pandas to generate data records with realistic and randomized values. The generated data can be in various format like CSV, JSON, Excel and SQL.
 
+The repository includes programs for generating:
+
+* Randomized user records, including names, addresses, and contact information
+* Randomized product records, including names, prices, and descriptions
+* Randomized transaction records, including dates, amounts, and customer information
+* Randomized weather records, including temperature, precipitation, and wind speed
+
 All of the programs in this repository are well-documented and easy to use. They can be easily customized to fit your specific needs. Feel free to use and modify the code for your own projects.
