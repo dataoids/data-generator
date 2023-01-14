@@ -1,0 +1,12 @@
+from faker import Faker
+from datetime import date
+
+start_date = date(2015, 1, 1)
+end_date = date(2025, 12, 31)
+
+fake = Faker()
+
+Faker.seed(0)
+
+for _ in range(5):
+    print(fake.date_between_dates(date_start=start_date, date_end=end_date))
